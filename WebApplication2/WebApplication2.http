@@ -1,0 +1,11 @@
+@WebApplication2_HostAddress = http://localhost:5049
+
+GET {{WebApplication2_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{WebApplication2_HostAddress}}/todos/1
+Accept: application/json
+
+###
